@@ -1,50 +1,62 @@
 {
     "ablum1": {
         "artist": "SZA",
-        "album": "SOS"
+        "album": "SOS",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum2": {
         "artist": "$ilkMoney",
-        "album": "I Don\u2019t Give a Fuck About This Rap Shit, Imma Just Drop Until I Don\u2019t Feel Like It Anymore"
+        "album": "I Don’t Give a Fuck About This Rap Shit, Imma Just Drop Until I Don’t Feel Like It Anymore",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum3": {
         "artist": "Weyes Blood",
-        "album": "And in the Darkness, Hearts Aglow\u00a0"
+        "album": "And in the Darkness, Hearts Aglow ",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum4": {
         "artist": "Dream Unending",
-        "album": "Song of Salvation"
+        "album": "Song of Salvation",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum5": {
         "artist": "CEO Trayle",
-        "album": "HH5"
+        "album": "HH5",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum6": {
         "artist": "Jeff Parker",
-        "album": "Mondays at the Enfield Tennis Academy"
+        "album": "Mondays at the Enfield Tennis Academy",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum7": {
         "artist": "Spencer Zahn",
-        "album": "Pigments"
+        "album": "Pigments",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum8": {
         "artist": "Special Interest",
-        "album": "Endure"
+        "album": "Endure",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum9": {
         "artist": "Mabe Fratti",
-        "album": "Se Ve Desde Aqu\u00ed"
+        "album": "Se Ve Desde Aquí",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum10": {
         "artist": "Mavi",
-        "album": "Laughing so Hard, it Hurts"
+        "album": "Laughing so Hard, it Hurts",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum11": {
         "artist": "Lucrecia Dalt",
-        "album": "\u00a1Ay!"
+        "album": "¡Ay!",
+        "updateDate": "26/01/2023 12:59:58"
     },
     "ablum12": {
         "artist": "Gilla Band",
-        "album": "Most Normal"
+        "album": "Most Normal",
+        "updateDate": "26/01/2023 12:59:58"
     }
 }

@@ -1,5 +1,15 @@
 import requests, json
 from bs4 import BeautifulSoup
+from datetime import datetime
+
+# datetime object containing current date and time
+now = datetime.now()
+ 
+print("now =", now)
+
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+print("date and time =", dt_string)
 
 data = requests.get('https://pitchfork.com/reviews/best/albums/?page=1')
 
@@ -11,7 +21,8 @@ reviews = soup.find_all('div', { 'class': 'review__title'})
 for review in reviews:
 	newAlbum = {
 		"artist" : "",
-		"album" : ""
+		"album" : "",
+		"updateDate" : dt_string
 	}
 	for title in review.find_all('li'):
 		newAlbum.update({"artist":title.text})
@@ -23,8 +34,8 @@ for review in reviews:
 print(bestAlbums)
 
 # Serializing json
-json_object = json.dumps(bestAlbums, indent=4)
+json_object = json.dumps(bestAlbums, indent=4, ensure_ascii=False)
  
 # Writing to sample.json
-with open("best_albums.json", "w") as outfile:
+with open("best_albums.json", "w", encoding='utf8') as outfile:
     outfile.write(json_object)
