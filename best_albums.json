@@ -1,302 +1,362 @@
 {
-    "ablum1": {
+    "album1": {
         "artist": "SZA",
         "album": "SOS",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "December 9 2022"
     },
-    "ablum2": {
+    "album2": {
         "artist": "$ilkMoney",
         "album": "I Don’t Give a Fuck About This Rap Shit, Imma Just Drop Until I Don’t Feel Like It Anymore",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 23 2022"
     },
-    "ablum3": {
+    "album3": {
         "artist": "Weyes Blood",
         "album": "And in the Darkness, Hearts Aglow ",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 18 2022"
     },
-    "ablum4": {
+    "album4": {
         "artist": "Dream Unending",
         "album": "Song of Salvation",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 15 2022"
     },
-    "ablum5": {
+    "album5": {
         "artist": "CEO Trayle",
         "album": "HH5",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 14 2022"
     },
-    "ablum6": {
+    "album6": {
         "artist": "Jeff Parker",
         "album": "Mondays at the Enfield Tennis Academy",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 12 2022"
     },
-    "ablum7": {
-        "artist": "Spencer Zahn",
+    "album7": {
+        "artist": "Dawn RichardSpencer Zahn",
         "album": "Pigments",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 9 2022"
     },
-    "ablum8": {
+    "album8": {
         "artist": "Special Interest",
         "album": "Endure",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 4 2022"
     },
-    "ablum9": {
+    "album9": {
         "artist": "Mabe Fratti",
         "album": "Se Ve Desde Aquí",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 25 2022"
     },
-    "ablum10": {
+    "album10": {
         "artist": "Mavi",
         "album": "Laughing so Hard, it Hurts",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 21 2022"
     },
-    "ablum11": {
+    "album11": {
         "artist": "Lucrecia Dalt",
         "album": "¡Ay!",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 13 2022"
     },
-    "ablum12": {
+    "album12": {
         "artist": "Gilla Band",
         "album": "Most Normal",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 11 2022"
     },
-    "ablum13": {
+    "album13": {
         "artist": "Daphni",
         "album": "Cherry",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 10 2022"
     },
-    "ablum14": {
+    "album14": {
         "artist": "Alvvays",
         "album": "Blue Rev",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 7 2022"
     },
-    "ablum15": {
+    "album15": {
         "artist": "Björk",
         "album": "Fossora",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 30 2022"
     },
-    "ablum16": {
+    "album16": {
         "artist": "Beth Orton",
         "album": "Weather Alive",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 26 2022"
     },
-    "ablum17": {
+    "album17": {
         "artist": "Alex G",
         "album": "God Save the Animals",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 23 2022"
     },
-    "ablum18": {
+    "album18": {
         "artist": "Sudan Archives",
         "album": "Natural Brown Prom Queen",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 12 2022"
     },
-    "ablum19": {
+    "album19": {
         "artist": "Jockstrap",
         "album": "I Love You Jennifer B",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 8 2022"
     },
-    "ablum20": {
+    "album20": {
         "artist": "Rachika Nayar",
         "album": "Heaven Come Crashing",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "September 2 2022"
     },
-    "ablum21": {
-        "artist": "The Alchemist",
+    "album21": {
+        "artist": "Roc MarcianoThe Alchemist",
         "album": "The Elephant Man’s Bones",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "August 29 2022"
     },
-    "ablum22": {
+    "album22": {
         "artist": "Beyoncé",
         "album": "Renaissance",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "August 1 2022"
     },
-    "ablum23": {
+    "album23": {
         "artist": "Chat Pile",
         "album": "God’s Country",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "July 29 2022"
     },
-    "ablum24": {
+    "album24": {
         "artist": "Florist",
         "album": "Florist",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "July 28 2022"
     },
-    "ablum25": {
-        "artist": "John McEntire",
+    "album25": {
+        "artist": "Sam PrekopJohn McEntire",
         "album": "Sons Of",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "July 25 2022"
     },
-    "ablum26": {
+    "album26": {
         "artist": "Two Shell",
         "album": "Icons EP",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "July 1 2022"
     },
-    "ablum27": {
+    "album27": {
         "artist": "Yaya Bey",
         "album": "Remember Your North Star",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "June 17 2022"
     },
-    "ablum28": {
+    "album28": {
         "artist": "Perfume Genius",
         "album": "Ugly Season",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "June 16 2022"
     },
-    "ablum29": {
+    "album29": {
         "artist": "Grace Ives",
         "album": "Janky Star",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "June 10 2022"
     },
-    "ablum30": {
+    "album30": {
         "artist": "700 Bliss",
         "album": "Nothing to Declare",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "June 6 2022"
     },
-    "ablum31": {
+    "album31": {
         "artist": "Ravyn Lenae",
         "album": "HYPNOS",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "May 25 2022"
     },
-    "ablum32": {
+    "album32": {
         "artist": "Bad Bunny",
         "album": "Un Verano Sin Ti",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "May 14 2022"
     },
-    "ablum33": {
+    "album33": {
         "artist": "The Smile",
         "album": "A Light for Attracting Attention",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "May 12 2022"
     },
-    "ablum34": {
+    "album34": {
         "artist": "MJ Lenderman",
         "album": "Boat Songs",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "May 7 2022"
     },
-    "ablum35": {
+    "album35": {
         "artist": "Undeath",
         "album": "It’s Time… To Rise From the Grave",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "April 28 2022"
     },
-    "ablum36": {
+    "album36": {
         "artist": "SAULT",
         "album": "Air",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "April 21 2022"
     },
-    "ablum37": {
+    "album37": {
         "artist": "Axel Boman",
         "album": "LUZ / Quest for Fire",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "April 18 2022"
     },
-    "ablum38": {
+    "album38": {
         "artist": "Alabaster dePlume",
         "album": "Gold - Go Forward in the Courage of Your Love",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "April 1 2022"
     },
-    "ablum39": {
+    "album39": {
         "artist": "Soul Glo",
         "album": "Diaspora Problems",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 30 2022"
     },
-    "ablum40": {
+    "album40": {
         "artist": "Aldous Harding",
         "album": "Warm Chris",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 25 2022"
     },
-    "ablum41": {
+    "album41": {
         "artist": "Destroyer",
         "album": "Labyrinthitis",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 24 2022"
     },
-    "ablum42": {
+    "album42": {
         "artist": "Oso Oso",
         "album": "Sore Thumb",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 21 2022"
     },
-    "ablum43": {
+    "album43": {
         "artist": "Rosalía",
         "album": "MOTOMAMI",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 18 2022"
     },
-    "ablum44": {
-        "artist": "Bolis Pupul",
+    "album44": {
+        "artist": "Charlotte AdigéryBolis Pupul",
         "album": "Topical Dancer",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 8 2022"
     },
-    "ablum45": {
+    "album45": {
         "artist": "Nilüfer Yanya",
         "album": "PAINLESS",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "March 4 2022"
     },
-    "ablum46": {
+    "album46": {
         "artist": "Huerco S.",
         "album": "Plonk",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 25 2022"
     },
-    "ablum47": {
+    "album47": {
         "artist": "Hurray for the Riff Raff",
         "album": "Life on Earth",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 18 2022"
     },
-    "ablum48": {
+    "album48": {
         "artist": "Jazmine Sullivan",
         "album": "Heaux Tales, Mo’ Tales: The Deluxe",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 16 2022"
     },
-    "ablum49": {
+    "album49": {
         "artist": "yeule",
         "album": "Glitch Princess",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 15 2022"
     },
-    "ablum50": {
+    "album50": {
         "artist": "Big Thief",
         "album": "Dragon New Warm Mountain I Believe in You",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 10 2022"
     },
-    "ablum51": {
+    "album51": {
         "artist": "Yung Kayo",
         "album": "DFTK",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 9 2022"
     },
-    "ablum52": {
+    "album52": {
         "artist": "Black Country, New Road",
         "album": "Ants From Up There",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 8 2022"
     },
-    "ablum53": {
+    "album53": {
         "artist": "Cate Le Bon",
         "album": "Pompeii",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 7 2022"
     },
-    "ablum54": {
+    "album54": {
         "artist": "Animal Collective",
         "album": "Time Skiffs",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "February 4 2022"
     },
-    "ablum55": {
+    "album55": {
         "artist": "Arca",
         "album": "KICK ii / KicK iii / kick iiii / kiCK iiiii",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "December 7 2021"
     },
-    "ablum56": {
+    "album56": {
         "artist": "Taylor Swift",
         "album": "Red (Taylor’s Version)",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 15 2021"
     },
-    "ablum57": {
+    "album57": {
         "artist": "Snail Mail",
         "album": "Valentine",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 4 2021"
     },
-    "ablum58": {
+    "album58": {
         "artist": "aya",
         "album": "im hole",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "November 1 2021"
     },
-    "ablum59": {
+    "album59": {
         "artist": "The War on Drugs",
         "album": "I Don’t Live Here Anymore",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 29 2021"
     },
-    "ablum60": {
+    "album60": {
         "artist": "Grouper",
         "album": "Shade",
-        "updateDate": "26/01/2023 13:09:41"
+        "updateDate": "January 26 2023",
+        "reviewDate": "October 26 2021"
     }
 }

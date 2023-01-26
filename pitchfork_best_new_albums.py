@@ -2,35 +2,32 @@ import requests, json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# datetime object containing current date and time
-now = datetime.now()
- 
-print("now =", now)
-
-# dd/mm/YY H:M:S
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print("date and time =", dt_string)
-
 bestAlbums = {}
 albumCount = 1
 x = 1
+
 for x in range(6) :
 	data = requests.get('https://pitchfork.com/reviews/best/albums/?page=' + str(x))
 
 	soup = BeautifulSoup(data.text, 'html.parser')
 
-	reviews = soup.find_all('div', { 'class': 'review__title'})
+	reviews = soup.find_all('div', { 'class': 'review'})
 	for review in reviews:
+		now = datetime.now()
+		dt_string = now.strftime("%B %d %Y")
 		newAlbum = {
 			"artist" : "",
 			"album" : "",
-			"updateDate" : dt_string
+			"updateDate" : dt_string,
+			"reviewDate" : ""
 		}
-		for title in review.find_all('li'):
+		for title in review.find_all('ul', { 'class': 'artist-list review__title-artist'}):
 			newAlbum.update({"artist":title.text})
-		for album in review.find_all('h2'):
+		for album in review.find_all('h2', { 'class': 'review__title-album' }):
 			newAlbum.update({"album":album.text})
-		bestAlbums.update({"ablum" + str(albumCount) : newAlbum})
+		for reviewDate in review.find_all('time', {'class': 'pub-date'}):
+			newAlbum.update({"reviewDate":reviewDate.text})
+		bestAlbums.update({"album" + str(albumCount) : newAlbum})
 		albumCount = albumCount + 1
 
 print(bestAlbums)
