@@ -2,61 +2,301 @@
     "ablum1": {
         "artist": "SZA",
         "album": "SOS",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum2": {
         "artist": "$ilkMoney",
         "album": "I Don’t Give a Fuck About This Rap Shit, Imma Just Drop Until I Don’t Feel Like It Anymore",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum3": {
         "artist": "Weyes Blood",
         "album": "And in the Darkness, Hearts Aglow ",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum4": {
         "artist": "Dream Unending",
         "album": "Song of Salvation",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum5": {
         "artist": "CEO Trayle",
         "album": "HH5",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum6": {
         "artist": "Jeff Parker",
         "album": "Mondays at the Enfield Tennis Academy",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum7": {
         "artist": "Spencer Zahn",
         "album": "Pigments",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum8": {
         "artist": "Special Interest",
         "album": "Endure",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum9": {
         "artist": "Mabe Fratti",
         "album": "Se Ve Desde Aquí",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum10": {
         "artist": "Mavi",
         "album": "Laughing so Hard, it Hurts",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum11": {
         "artist": "Lucrecia Dalt",
         "album": "¡Ay!",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
     },
     "ablum12": {
         "artist": "Gilla Band",
         "album": "Most Normal",
-        "updateDate": "26/01/2023 12:59:58"
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum13": {
+        "artist": "Daphni",
+        "album": "Cherry",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum14": {
+        "artist": "Alvvays",
+        "album": "Blue Rev",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum15": {
+        "artist": "Björk",
+        "album": "Fossora",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum16": {
+        "artist": "Beth Orton",
+        "album": "Weather Alive",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum17": {
+        "artist": "Alex G",
+        "album": "God Save the Animals",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum18": {
+        "artist": "Sudan Archives",
+        "album": "Natural Brown Prom Queen",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum19": {
+        "artist": "Jockstrap",
+        "album": "I Love You Jennifer B",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum20": {
+        "artist": "Rachika Nayar",
+        "album": "Heaven Come Crashing",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum21": {
+        "artist": "The Alchemist",
+        "album": "The Elephant Man’s Bones",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum22": {
+        "artist": "Beyoncé",
+        "album": "Renaissance",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum23": {
+        "artist": "Chat Pile",
+        "album": "God’s Country",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum24": {
+        "artist": "Florist",
+        "album": "Florist",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum25": {
+        "artist": "John McEntire",
+        "album": "Sons Of",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum26": {
+        "artist": "Two Shell",
+        "album": "Icons EP",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum27": {
+        "artist": "Yaya Bey",
+        "album": "Remember Your North Star",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum28": {
+        "artist": "Perfume Genius",
+        "album": "Ugly Season",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum29": {
+        "artist": "Grace Ives",
+        "album": "Janky Star",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum30": {
+        "artist": "700 Bliss",
+        "album": "Nothing to Declare",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum31": {
+        "artist": "Ravyn Lenae",
+        "album": "HYPNOS",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum32": {
+        "artist": "Bad Bunny",
+        "album": "Un Verano Sin Ti",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum33": {
+        "artist": "The Smile",
+        "album": "A Light for Attracting Attention",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum34": {
+        "artist": "MJ Lenderman",
+        "album": "Boat Songs",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum35": {
+        "artist": "Undeath",
+        "album": "It’s Time… To Rise From the Grave",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum36": {
+        "artist": "SAULT",
+        "album": "Air",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum37": {
+        "artist": "Axel Boman",
+        "album": "LUZ / Quest for Fire",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum38": {
+        "artist": "Alabaster dePlume",
+        "album": "Gold - Go Forward in the Courage of Your Love",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum39": {
+        "artist": "Soul Glo",
+        "album": "Diaspora Problems",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum40": {
+        "artist": "Aldous Harding",
+        "album": "Warm Chris",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum41": {
+        "artist": "Destroyer",
+        "album": "Labyrinthitis",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum42": {
+        "artist": "Oso Oso",
+        "album": "Sore Thumb",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum43": {
+        "artist": "Rosalía",
+        "album": "MOTOMAMI",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum44": {
+        "artist": "Bolis Pupul",
+        "album": "Topical Dancer",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum45": {
+        "artist": "Nilüfer Yanya",
+        "album": "PAINLESS",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum46": {
+        "artist": "Huerco S.",
+        "album": "Plonk",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum47": {
+        "artist": "Hurray for the Riff Raff",
+        "album": "Life on Earth",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum48": {
+        "artist": "Jazmine Sullivan",
+        "album": "Heaux Tales, Mo’ Tales: The Deluxe",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum49": {
+        "artist": "yeule",
+        "album": "Glitch Princess",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum50": {
+        "artist": "Big Thief",
+        "album": "Dragon New Warm Mountain I Believe in You",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum51": {
+        "artist": "Yung Kayo",
+        "album": "DFTK",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum52": {
+        "artist": "Black Country, New Road",
+        "album": "Ants From Up There",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum53": {
+        "artist": "Cate Le Bon",
+        "album": "Pompeii",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum54": {
+        "artist": "Animal Collective",
+        "album": "Time Skiffs",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum55": {
+        "artist": "Arca",
+        "album": "KICK ii / KicK iii / kick iiii / kiCK iiiii",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum56": {
+        "artist": "Taylor Swift",
+        "album": "Red (Taylor’s Version)",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum57": {
+        "artist": "Snail Mail",
+        "album": "Valentine",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum58": {
+        "artist": "aya",
+        "album": "im hole",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum59": {
+        "artist": "The War on Drugs",
+        "album": "I Don’t Live Here Anymore",
+        "updateDate": "26/01/2023 13:09:41"
+    },
+    "ablum60": {
+        "artist": "Grouper",
+        "album": "Shade",
+        "updateDate": "26/01/2023 13:09:41"
     }
 }

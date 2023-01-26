@@ -11,25 +11,27 @@ print("now =", now)
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 print("date and time =", dt_string)
 
-data = requests.get('https://pitchfork.com/reviews/best/albums/?page=1')
-
-soup = BeautifulSoup(data.text, 'html.parser')
-
 bestAlbums = {}
 albumCount = 1
-reviews = soup.find_all('div', { 'class': 'review__title'})
-for review in reviews:
-	newAlbum = {
-		"artist" : "",
-		"album" : "",
-		"updateDate" : dt_string
-	}
-	for title in review.find_all('li'):
-		newAlbum.update({"artist":title.text})
-	for album in review.find_all('h2'):
-		newAlbum.update({"album":album.text})
-	bestAlbums.update({"ablum" + str(albumCount) : newAlbum})
-	albumCount = albumCount + 1
+x = 1
+for x in range(6) :
+	data = requests.get('https://pitchfork.com/reviews/best/albums/?page=' + str(x))
+
+	soup = BeautifulSoup(data.text, 'html.parser')
+
+	reviews = soup.find_all('div', { 'class': 'review__title'})
+	for review in reviews:
+		newAlbum = {
+			"artist" : "",
+			"album" : "",
+			"updateDate" : dt_string
+		}
+		for title in review.find_all('li'):
+			newAlbum.update({"artist":title.text})
+		for album in review.find_all('h2'):
+			newAlbum.update({"album":album.text})
+		bestAlbums.update({"ablum" + str(albumCount) : newAlbum})
+		albumCount = albumCount + 1
 
 print(bestAlbums)
 
