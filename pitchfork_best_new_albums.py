@@ -12,21 +12,29 @@ for x in range(6) :
 	soup = BeautifulSoup(data.text, 'html.parser')
 
 	reviews = soup.find_all('div', { 'class': 'review'})
+	
 	for review in reviews:
+		
 		now = datetime.now()
 		dt_string = now.strftime("%B %d %Y")
+		
 		newAlbum = {
 			"artist" : "",
 			"album" : "",
 			"updateDate" : dt_string,
-			"reviewDate" : ""
+			"reviewDate" : "",
+			"genre" : ""
 		}
+		
 		for title in review.find_all('ul', { 'class': 'artist-list review__title-artist'}):
 			newAlbum.update({"artist":title.text})
 		for album in review.find_all('h2', { 'class': 'review__title-album' }):
 			newAlbum.update({"album":album.text})
 		for reviewDate in review.find_all('time', {'class': 'pub-date'}):
 			newAlbum.update({"reviewDate":reviewDate.text})
+		for genre in review.find_all('li', {'class': 'genre-list__item'}):
+			newAlbum.update({"genre":genre.text})
+		
 		bestAlbums.update({"album" + str(albumCount) : newAlbum})
 		albumCount = albumCount + 1
 
@@ -35,6 +43,6 @@ print(bestAlbums)
 # Serializing json
 json_object = json.dumps(bestAlbums, indent=4, ensure_ascii=False)
  
-# Writing to sample.json
+# Writing to best_albums.json
 with open("best_albums.json", "w", encoding='utf8') as outfile:
     outfile.write(json_object)
