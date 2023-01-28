@@ -15,7 +15,7 @@ def getBestNewAlbums():
 	albumCount = 1
 	pageNum = 1
 
-	for pageNum in range(2) :
+	for pageNum in range(10) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -32,7 +32,7 @@ def getBestNewAlbums():
 			albumCount = albumCount + 1		
 		
 		#added pause to avoid ip blacklist
-		#time.sleep(randint(2,10))
+		time.sleep(randint(2,5))
 
 	#print(bestAlbums)
 	writeToJsonFile(bestAlbums)
@@ -49,28 +49,24 @@ def createAlbumDict():
 			}
 
 def getAlbumDetails(newAlbum, review):
-	#get artist name
+
 	artist = review.find('ul', { 'class': 'artist-list review__title-artist'})
 	newAlbum.update({"artist":artist.text})
-	#get album title
+	
 	album = review.find('h2', { 'class': 'review__title-album' })
 	newAlbum.update({"album":album.text})
-	#get review date
+
 	reviewDate = review.find('time', {'class': 'pub-date'})
 	newAlbum.update({"reviewDate":reviewDate.text})
-	#get genre
+	
 	genre = review.find('li', {'class': 'genre-list__item'})
 	newAlbum.update({"genre":genre.text})
 
 def writeToJsonFile(bestAlbums):
-	# Serializing json
 	json_object = json.dumps(bestAlbums, indent=4, ensure_ascii=False)
 	 
-	# Writing to best_albums.json
 	with open(outputFile, "w", encoding='utf8') as outfile:
 	    outfile.write(json_object)
 
 if __name__ == "__main__":   
-  
-	# Get best new albums
 	getBestNewAlbums()
