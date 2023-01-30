@@ -14,7 +14,7 @@ def getBestNewAlbums():
 	bestAlbums = []
 	pageNum = 1
 
-	for pageNum in range(10) :
+	for pageNum in range(2) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -47,7 +47,12 @@ def createAlbumDict():
 def getAlbumDetails(newAlbum, review):
 
 	artist = review.find('ul', { 'class': 'artist-list review__title-artist'})
-	newAlbum.update({"artistName":artist.text.strip()})
+	tempArtist = ""
+	if(len(artist.find_all('li'))) > 1:
+		tempArtist = ", ".join(n.text for n in artist.find_all('li'))
+	else:
+		tempArtist = artist.text;
+	newAlbum.update({"artistName":tempArtist.strip()})
 	
 	album = review.find('h2', { 'class': 'review__title-album' })
 	newAlbum.update({"albumTitle":album.text.strip()})
