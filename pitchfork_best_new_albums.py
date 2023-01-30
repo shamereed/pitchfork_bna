@@ -12,10 +12,9 @@ dt_string = now.strftime("%B %d %Y")
 def getBestNewAlbums():
 
 	bestAlbums = []
-	#albumCount = 1
 	pageNum = 1
 
-	for pageNum in range(2) :
+	for pageNum in range(10) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -27,23 +26,19 @@ def getBestNewAlbums():
 			newAlbum = createAlbumDict()
 			
 			getAlbumDetails(newAlbum, review)
-			#set album count
-			bestAlbums.append(newAlbum)
-			#bestAlbums.update({"album" + str(albumCount) : newAlbum})
-			#albumCount = albumCount + 1		
+			bestAlbums.append(newAlbum)		
 		
 		#added pause to avoid ip blacklist
 		#time.sleep(randint(2,5))
 
-	#print(bestAlbums)
 	writeToJsonFile(bestAlbums)
 
 	print("--- %s seconds ---" % (time.time() - start_time))
 
 def createAlbumDict():
 		return	{
-				"artist" : "",
-				"album" : "",
+				"artistName" : "",
+				"albumTitle" : "",
 				"updateDate" : dt_string,
 				"reviewDate" : "",
 				"genre" : ""
@@ -52,10 +47,10 @@ def createAlbumDict():
 def getAlbumDetails(newAlbum, review):
 
 	artist = review.find('ul', { 'class': 'artist-list review__title-artist'})
-	newAlbum.update({"artist":artist.text})
+	newAlbum.update({"artistName":artist.text.strip()})
 	
 	album = review.find('h2', { 'class': 'review__title-album' })
-	newAlbum.update({"album":album.text})
+	newAlbum.update({"albumTitle":album.text.strip()})
 
 	reviewDate = review.find('time', {'class': 'pub-date'})
 	newAlbum.update({"reviewDate":reviewDate.text})
