@@ -1,758 +1,86 @@
-{
-    "album1": {
+[
+    {
         "artist": "SZA",
         "album": "SOS",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "December 9 2022",
         "genre": "Pop/R&B"
     },
-    "album2": {
+    {
         "artist": "$ilkMoney",
         "album": "I Don’t Give a Fuck About This Rap Shit, Imma Just Drop Until I Don’t Feel Like It Anymore",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 23 2022",
         "genre": "Rap"
     },
-    "album3": {
+    {
         "artist": "Weyes Blood",
         "album": "And in the Darkness, Hearts Aglow ",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 18 2022",
         "genre": "Rock"
     },
-    "album4": {
+    {
         "artist": "Dream Unending",
         "album": "Song of Salvation",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 15 2022",
         "genre": "Metal"
     },
-    "album5": {
+    {
         "artist": "CEO Trayle",
         "album": "HH5",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 14 2022",
         "genre": "Rap"
     },
-    "album6": {
+    {
         "artist": "Jeff Parker",
         "album": "Mondays at the Enfield Tennis Academy",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 12 2022",
         "genre": "Jazz"
     },
-    "album7": {
+    {
         "artist": "Dawn RichardSpencer Zahn",
         "album": "Pigments",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 9 2022",
         "genre": "Pop/R&B"
     },
-    "album8": {
+    {
         "artist": "Special Interest",
         "album": "Endure",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "November 4 2022",
         "genre": "Rock"
     },
-    "album9": {
+    {
         "artist": "Mabe Fratti",
         "album": "Se Ve Desde Aquí",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "October 25 2022",
         "genre": "Experimental"
     },
-    "album10": {
+    {
         "artist": "Mavi",
         "album": "Laughing so Hard, it Hurts",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "October 21 2022",
         "genre": "Rap"
     },
-    "album11": {
+    {
         "artist": "Lucrecia Dalt",
         "album": "¡Ay!",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "October 13 2022",
         "genre": "Experimental"
     },
-    "album12": {
+    {
         "artist": "Gilla Band",
         "album": "Most Normal",
-        "updateDate": "January 28 2023",
+        "updateDate": "January 30 2023",
         "reviewDate": "October 11 2022",
         "genre": "Rock"
-    },
-    "album13": {
-        "artist": "Daphni",
-        "album": "Cherry",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 10 2022",
-        "genre": "Electronic"
-    },
-    "album14": {
-        "artist": "Alvvays",
-        "album": "Blue Rev",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 7 2022",
-        "genre": "Rock"
-    },
-    "album15": {
-        "artist": "Björk",
-        "album": "Fossora",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 30 2022",
-        "genre": "Electronic"
-    },
-    "album16": {
-        "artist": "Beth Orton",
-        "album": "Weather Alive",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 26 2022",
-        "genre": "Rock"
-    },
-    "album17": {
-        "artist": "Alex G",
-        "album": "God Save the Animals",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 23 2022",
-        "genre": "Rock"
-    },
-    "album18": {
-        "artist": "Sudan Archives",
-        "album": "Natural Brown Prom Queen",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 12 2022",
-        "genre": "Pop/R&B"
-    },
-    "album19": {
-        "artist": "Jockstrap",
-        "album": "I Love You Jennifer B",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 8 2022",
-        "genre": "Electronic"
-    },
-    "album20": {
-        "artist": "Rachika Nayar",
-        "album": "Heaven Come Crashing",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 2 2022",
-        "genre": "Experimental"
-    },
-    "album21": {
-        "artist": "Roc MarcianoThe Alchemist",
-        "album": "The Elephant Man’s Bones",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 29 2022",
-        "genre": "Rap"
-    },
-    "album22": {
-        "artist": "Beyoncé",
-        "album": "Renaissance",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 1 2022",
-        "genre": "Pop/R&B"
-    },
-    "album23": {
-        "artist": "Chat Pile",
-        "album": "God’s Country",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 29 2022",
-        "genre": "Rock"
-    },
-    "album24": {
-        "artist": "Florist",
-        "album": "Florist",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 28 2022",
-        "genre": "Folk/Country"
-    },
-    "album25": {
-        "artist": "Sam PrekopJohn McEntire",
-        "album": "Sons Of",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 25 2022",
-        "genre": "Electronic"
-    },
-    "album26": {
-        "artist": "Two Shell",
-        "album": "Icons EP",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 1 2022",
-        "genre": "Electronic"
-    },
-    "album27": {
-        "artist": "Yaya Bey",
-        "album": "Remember Your North Star",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 17 2022",
-        "genre": "Pop/R&B"
-    },
-    "album28": {
-        "artist": "Perfume Genius",
-        "album": "Ugly Season",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 16 2022",
-        "genre": "Pop/R&B"
-    },
-    "album29": {
-        "artist": "Grace Ives",
-        "album": "Janky Star",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 10 2022",
-        "genre": "Pop/R&B"
-    },
-    "album30": {
-        "artist": "700 Bliss",
-        "album": "Nothing to Declare",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 6 2022",
-        "genre": "Experimental"
-    },
-    "album31": {
-        "artist": "Ravyn Lenae",
-        "album": "HYPNOS",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 25 2022",
-        "genre": "Pop/R&B"
-    },
-    "album32": {
-        "artist": "Bad Bunny",
-        "album": "Un Verano Sin Ti",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 14 2022",
-        "genre": "Rap"
-    },
-    "album33": {
-        "artist": "The Smile",
-        "album": "A Light for Attracting Attention",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 12 2022",
-        "genre": "Rock"
-    },
-    "album34": {
-        "artist": "MJ Lenderman",
-        "album": "Boat Songs",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 7 2022",
-        "genre": "Rock"
-    },
-    "album35": {
-        "artist": "Undeath",
-        "album": "It’s Time… To Rise From the Grave",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 28 2022",
-        "genre": "Metal"
-    },
-    "album36": {
-        "artist": "SAULT",
-        "album": "Air",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 21 2022",
-        "genre": "Experimental"
-    },
-    "album37": {
-        "artist": "Axel Boman",
-        "album": "LUZ / Quest for Fire",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 18 2022",
-        "genre": "Electronic"
-    },
-    "album38": {
-        "artist": "Alabaster dePlume",
-        "album": "Gold - Go Forward in the Courage of Your Love",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 1 2022",
-        "genre": "Jazz"
-    },
-    "album39": {
-        "artist": "Soul Glo",
-        "album": "Diaspora Problems",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 30 2022",
-        "genre": "Rock"
-    },
-    "album40": {
-        "artist": "Aldous Harding",
-        "album": "Warm Chris",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 25 2022",
-        "genre": "Folk/Country"
-    },
-    "album41": {
-        "artist": "Destroyer",
-        "album": "Labyrinthitis",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 24 2022",
-        "genre": "Rock"
-    },
-    "album42": {
-        "artist": "Oso Oso",
-        "album": "Sore Thumb",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 21 2022",
-        "genre": "Rock"
-    },
-    "album43": {
-        "artist": "Rosalía",
-        "album": "MOTOMAMI",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 18 2022",
-        "genre": "Pop/R&B"
-    },
-    "album44": {
-        "artist": "Charlotte AdigéryBolis Pupul",
-        "album": "Topical Dancer",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 8 2022",
-        "genre": "Experimental"
-    },
-    "album45": {
-        "artist": "Nilüfer Yanya",
-        "album": "PAINLESS",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 4 2022",
-        "genre": "Pop/R&B"
-    },
-    "album46": {
-        "artist": "Huerco S.",
-        "album": "Plonk",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 25 2022",
-        "genre": "Experimental"
-    },
-    "album47": {
-        "artist": "Hurray for the Riff Raff",
-        "album": "Life on Earth",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 18 2022",
-        "genre": "Rock"
-    },
-    "album48": {
-        "artist": "Jazmine Sullivan",
-        "album": "Heaux Tales, Mo’ Tales: The Deluxe",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 16 2022",
-        "genre": "Pop/R&B"
-    },
-    "album49": {
-        "artist": "yeule",
-        "album": "Glitch Princess",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 15 2022",
-        "genre": "Pop/R&B"
-    },
-    "album50": {
-        "artist": "Big Thief",
-        "album": "Dragon New Warm Mountain I Believe in You",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 10 2022",
-        "genre": "Rock"
-    },
-    "album51": {
-        "artist": "Yung Kayo",
-        "album": "DFTK",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 9 2022",
-        "genre": "Rap"
-    },
-    "album52": {
-        "artist": "Black Country, New Road",
-        "album": "Ants From Up There",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 8 2022",
-        "genre": "Experimental"
-    },
-    "album53": {
-        "artist": "Cate Le Bon",
-        "album": "Pompeii",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 7 2022",
-        "genre": "Rock"
-    },
-    "album54": {
-        "artist": "Animal Collective",
-        "album": "Time Skiffs",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 4 2022",
-        "genre": "Experimental"
-    },
-    "album55": {
-        "artist": "Arca",
-        "album": "KICK ii / KicK iii / kick iiii / kiCK iiiii",
-        "updateDate": "January 28 2023",
-        "reviewDate": "December 7 2021",
-        "genre": "Experimental"
-    },
-    "album56": {
-        "artist": "Taylor Swift",
-        "album": "Red (Taylor’s Version)",
-        "updateDate": "January 28 2023",
-        "reviewDate": "November 15 2021",
-        "genre": "Pop/R&B"
-    },
-    "album57": {
-        "artist": "Snail Mail",
-        "album": "Valentine",
-        "updateDate": "January 28 2023",
-        "reviewDate": "November 4 2021",
-        "genre": "Rock"
-    },
-    "album58": {
-        "artist": "aya",
-        "album": "im hole",
-        "updateDate": "January 28 2023",
-        "reviewDate": "November 1 2021",
-        "genre": "Electronic"
-    },
-    "album59": {
-        "artist": "The War on Drugs",
-        "album": "I Don’t Live Here Anymore",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 29 2021",
-        "genre": "Rock"
-    },
-    "album60": {
-        "artist": "Grouper",
-        "album": "Shade",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 26 2021",
-        "genre": "Experimental"
-    },
-    "album61": {
-        "artist": "Xenia Rubinos",
-        "album": "Una Rosa",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 23 2021",
-        "genre": "Rock"
-    },
-    "album62": {
-        "artist": "Wiki",
-        "album": "Half God",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 5 2021",
-        "genre": "Rap"
-    },
-    "album63": {
-        "artist": "Tirzah",
-        "album": "Colourgrade",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 1 2021",
-        "genre": "Experimental"
-    },
-    "album64": {
-        "artist": "Nala Sinephro",
-        "album": "Space 1.8",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 16 2021",
-        "genre": "Jazz"
-    },
-    "album65": {
-        "artist": "Low",
-        "album": "Hey What",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 10 2021",
-        "genre": "Rock"
-    },
-    "album66": {
-        "artist": "Indigo De Souza",
-        "album": "Any Shape You Take",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 2 2021",
-        "genre": "Rock"
-    },
-    "album67": {
-        "artist": "Turnstile",
-        "album": "Glow On",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 27 2021",
-        "genre": "Rock"
-    },
-    "album68": {
-        "artist": "Ka",
-        "album": "A Martyr’s Reward",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 21 2021",
-        "genre": "Rap"
-    },
-    "album69": {
-        "artist": "L’Rain",
-        "album": "Fatigue",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 29 2021",
-        "genre": "Experimental"
-    },
-    "album70": {
-        "artist": "Tyler, the Creator",
-        "album": "Call Me If You Get Lost",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 28 2021",
-        "genre": "Rap"
-    },
-    "album71": {
-        "artist": "Faye Webster",
-        "album": "I Know I’m Funny haha",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 25 2021",
-        "genre": "Folk/Country"
-    },
-    "album72": {
-        "artist": "Mach-Hommy",
-        "album": "Pray for Haiti",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 27 2021",
-        "genre": "Rap"
-    },
-    "album73": {
-        "artist": "Mdou Moctar",
-        "album": "Afrique Victime",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 20 2021",
-        "genre": "Rock"
-    },
-    "album74": {
-        "artist": "Iceage",
-        "album": "Seek Shelter",
-        "updateDate": "January 28 2023",
-        "reviewDate": "May 7 2021",
-        "genre": "Rock"
-    },
-    "album75": {
-        "artist": "Arooj Aftab",
-        "album": "Vulture Prince",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 27 2021",
-        "genre": "Jazz"
-    },
-    "album76": {
-        "artist": "The Armed",
-        "album": "ULTRAPOP",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 16 2021",
-        "genre": "Rock"
-    },
-    "album77": {
-        "artist": "Vijay IyerLinda May Han OhTyshawn Sorey",
-        "album": "Uneasy",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 15 2021",
-        "genre": "Jazz"
-    },
-    "album78": {
-        "artist": "Spirit of the Beehive",
-        "album": "ENTERTAINMENT, DEATH",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 9 2021",
-        "genre": "Rock"
-    },
-    "album79": {
-        "artist": "Dry Cleaning",
-        "album": "New Long Leg",
-        "updateDate": "January 28 2023",
-        "reviewDate": "April 2 2021",
-        "genre": "Rock"
-    },
-    "album80": {
-        "artist": "Lost Girls",
-        "album": "Menneskekollektivet",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 30 2021",
-        "genre": "Experimental"
-    },
-    "album81": {
-        "artist": "Floating PointsPharoah SandersThe London Symphony Orchestra",
-        "album": "Promises",
-        "updateDate": "January 28 2023",
-        "reviewDate": "March 26 2021",
-        "genre": "Electronic"
-    },
-    "album82": {
-        "artist": "Cassandra Jenkins",
-        "album": "An Overview on Phenomenal Nature",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 19 2021",
-        "genre": "Rock"
-    },
-    "album83": {
-        "artist": "The Weather Station",
-        "album": "Ignorance",
-        "updateDate": "January 28 2023",
-        "reviewDate": "February 5 2021",
-        "genre": "Folk/Country"
-    },
-    "album84": {
-        "artist": "Jazmine Sullivan",
-        "album": "Heaux Tales",
-        "updateDate": "January 28 2023",
-        "reviewDate": "January 13 2021",
-        "genre": "Pop/R&B"
-    },
-    "album85": {
-        "artist": "Navy Blue",
-        "album": "Song of Sage: Post Panic!",
-        "updateDate": "January 28 2023",
-        "reviewDate": "January 11 2021",
-        "genre": "Rap"
-    },
-    "album86": {
-        "artist": "Playboi Carti",
-        "album": "Whole Lotta Red",
-        "updateDate": "January 28 2023",
-        "reviewDate": "January 5 2021",
-        "genre": "Rap"
-    },
-    "album87": {
-        "artist": "Amaarae",
-        "album": "The Angel You Don’t Know",
-        "updateDate": "January 28 2023",
-        "reviewDate": "November 13 2020",
-        "genre": "Pop/R&B"
-    },
-    "album88": {
-        "artist": "Angel Bat DawidTha Brothahood",
-        "album": "LIVE",
-        "updateDate": "January 28 2023",
-        "reviewDate": "November 9 2020",
-        "genre": "Jazz"
-    },
-    "album89": {
-        "artist": "Adrianne Lenker",
-        "album": "songs / instrumentals",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 23 2020",
-        "genre": "Rock"
-    },
-    "album90": {
-        "artist": "Jay Electronica",
-        "album": "Act II: The Patents of Nobility (The Turn)",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 13 2020",
-        "genre": "Rap"
-    },
-    "album91": {
-        "artist": "Touché Amoré",
-        "album": "Lament",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 12 2020",
-        "genre": "Rock"
-    },
-    "album92": {
-        "artist": "Bartees Strange",
-        "album": "Live Forever",
-        "updateDate": "January 28 2023",
-        "reviewDate": "October 6 2020",
-        "genre": "Rock"
-    },
-    "album93": {
-        "artist": "Fleet Foxes",
-        "album": "Shore",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 23 2020",
-        "genre": "Folk/Country"
-    },
-    "album94": {
-        "artist": "Lomelda",
-        "album": "Hannah",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 8 2020",
-        "genre": "Rock"
-    },
-    "album95": {
-        "artist": "Jyoti",
-        "album": "Mama, You Can Bet!",
-        "updateDate": "January 28 2023",
-        "reviewDate": "September 3 2020",
-        "genre": "Jazz"
-    },
-    "album96": {
-        "artist": "Fireboy DML",
-        "album": "APOLLO",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 26 2020",
-        "genre": "Pop/R&B"
-    },
-    "album97": {
-        "artist": "Nubya Garcia",
-        "album": "Source",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 25 2020",
-        "genre": "Jazz"
-    },
-    "album98": {
-        "artist": "Popcaan",
-        "album": "FIXTAPE",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 18 2020",
-        "genre": "Pop/R&B"
-    },
-    "album99": {
-        "artist": "The Microphones",
-        "album": "Microphones in 2020",
-        "updateDate": "January 28 2023",
-        "reviewDate": "August 7 2020",
-        "genre": "Experimental"
-    },
-    "album100": {
-        "artist": "Dehd",
-        "album": "Flower of Devotion",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 21 2020",
-        "genre": "Rock"
-    },
-    "album101": {
-        "artist": "Julianna Barwick",
-        "album": "Healing Is a Miracle",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 15 2020",
-        "genre": "Electronic"
-    },
-    "album102": {
-        "artist": "Special Interest",
-        "album": "The Passion Of",
-        "updateDate": "January 28 2023",
-        "reviewDate": "July 3 2020",
-        "genre": "Rock"
-    },
-    "album103": {
-        "artist": "Jessie Ware",
-        "album": "What’s Your Pleasure?",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 29 2020",
-        "genre": "Pop/R&B"
-    },
-    "album104": {
-        "artist": "Haim",
-        "album": "Women in Music Pt. III",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 25 2020",
-        "genre": "Rock"
-    },
-    "album105": {
-        "artist": "Phoebe Bridgers",
-        "album": "Punisher",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 22 2020",
-        "genre": "Folk/Country"
-    },
-    "album106": {
-        "artist": "Bob Dylan",
-        "album": "Rough and Rowdy Ways",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 18 2020",
-        "genre": "Rock"
-    },
-    "album107": {
-        "artist": "Drakeo the RulerJoogSzn",
-        "album": "Thank You for Using GTL",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 10 2020",
-        "genre": "Rap"
-    },
-    "album108": {
-        "artist": "Run the Jewels",
-        "album": "RTJ4",
-        "updateDate": "January 28 2023",
-        "reviewDate": "June 5 2020",
-        "genre": "Rap"
     }
-}
+]

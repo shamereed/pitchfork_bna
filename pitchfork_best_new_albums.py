@@ -11,11 +11,11 @@ dt_string = now.strftime("%B %d %Y")
 
 def getBestNewAlbums():
 
-	bestAlbums = {}
-	albumCount = 1
+	bestAlbums = []
+	#albumCount = 1
 	pageNum = 1
 
-	for pageNum in range(10) :
+	for pageNum in range(2) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -28,11 +28,12 @@ def getBestNewAlbums():
 			
 			getAlbumDetails(newAlbum, review)
 			#set album count
-			bestAlbums.update({"album" + str(albumCount) : newAlbum})
-			albumCount = albumCount + 1		
+			bestAlbums.append(newAlbum)
+			#bestAlbums.update({"album" + str(albumCount) : newAlbum})
+			#albumCount = albumCount + 1		
 		
 		#added pause to avoid ip blacklist
-		time.sleep(randint(2,5))
+		#time.sleep(randint(2,5))
 
 	#print(bestAlbums)
 	writeToJsonFile(bestAlbums)
