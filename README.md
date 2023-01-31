@@ -1,2 +1,2 @@
 # pitchfork_bna
-Python app to pull pitchfork's best new albums
+Python app to add pitchfork's best new albums to MongoDB then create Spotify Playlist
