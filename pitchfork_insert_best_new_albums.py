@@ -1,7 +1,7 @@
 import json
 from pymongo import MongoClient
 
-outputFile = '/test/best_albums.json'
+outputFile = 'best_albums.json'
 CONNECTION_STRING = "mongodb://localhost:27017/"
 
 def get_database():
