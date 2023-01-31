@@ -14,7 +14,7 @@ def getBestNewAlbums():
 	bestAlbums = []
 	pageNum = 1
 
-	for pageNum in range(2) :
+	for pageNum in range(10) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -41,7 +41,9 @@ def createAlbumDict():
 				"albumTitle" : "",
 				"updateDate" : dt_string,
 				"reviewDate" : "",
-				"genre" : ""
+				"genre" : "",
+				"reviewLink" : "",
+				"reviewRating" : ""
 			}
 
 def getAlbumDetails(newAlbum, review):
@@ -62,6 +64,9 @@ def getAlbumDetails(newAlbum, review):
 	
 	genre = review.find('li', {'class': 'genre-list__item'})
 	newAlbum.update({"genre":genre.text})
+
+	reviewLink = review.find('a', {'class': 'review__link'})
+	newAlbum.update({"reviewLink":reviewLink.get("href")})
 
 def writeToJsonFile(bestAlbums):
 	json_object = json.dumps(bestAlbums, indent=4, ensure_ascii=False)
