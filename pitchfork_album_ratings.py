@@ -23,10 +23,10 @@ def getAlbumRating():
 		if(reviewRating) :
 			album.update({"reviewRating" : reviewRating.text})
 
-		#print(album)
+		print(album)
 		updatedAlbums.append(album)
 		#added pause to avoid ip blacklist
-		time.sleep(randint(2,5))
+		#time.sleep(randint(2,5))
 	
 	bestNewAlbums.close()
 	print("--- %s seconds ---" % (time.time() - start_time))
