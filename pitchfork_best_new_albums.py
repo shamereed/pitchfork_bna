@@ -1,4 +1,4 @@
-import requests, json, time
+import requests, json, time, pitchfork_get_latest_album_in_db
 from bs4 import BeautifulSoup
 from datetime import datetime
 from random import randint
@@ -14,7 +14,10 @@ def getBestNewAlbums():
 	bestAlbums = []
 	pageNum = 1
 
-	for pageNum in range(10) :
+	latestAlbum = pitchfork_get_latest_album_in_db.getLatestAlbumDocument()
+	print(latestAlbum)
+
+	for pageNum in range(5) :
 		data = requests.get(url + str(pageNum))
 
 		soup = BeautifulSoup(data.text, 'lxml')
@@ -26,7 +29,8 @@ def getBestNewAlbums():
 			newAlbum = createAlbumDict()
 			
 			getAlbumDetails(newAlbum, review)
-			bestAlbums.append(newAlbum)		
+			if(newAlbum["reviewDate"] > latestAlbum["reviewDate"]):
+				bestAlbums.append(newAlbum)
 		
 		#added pause to avoid ip blacklist
 		#time.sleep(randint(2,5))
@@ -76,3 +80,4 @@ def writeToJsonFile(bestAlbums):
 
 if __name__ == "__main__":   
 	getBestNewAlbums()
+	

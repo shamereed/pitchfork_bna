@@ -1,11 +1,10 @@
-import requests, json, time, pitchfork_best_new_albums
+import requests, json, time, pitchfork_best_new_albums, re
 from bs4 import BeautifulSoup
 from datetime import datetime
 from random import randint
 
 url = 'https://pitchfork.com'
 inputFile = 'best_albums.json'
-ratingClass = 'ScoreCircle-cIILhI hHVylS'
 updatedAlbums = []
 start_time = time.time()
 
@@ -18,12 +17,14 @@ def getAlbumRating():
 
 		soup = BeautifulSoup(scraper.text, 'lxml')
 		
-		reviewRating = soup.find('div', { 'class': ratingClass})
-		
+		regex = re.compile('.*ScoreCircle.*')
+		reviewRating = soup.find('div' , {'class': regex})		
+		print(reviewRating)
+
 		if(reviewRating) :
 			album.update({"reviewRating" : reviewRating.text})
 
-		print(album)
+		#print(album)
 		updatedAlbums.append(album)
 		#added pause to avoid ip blacklist
 		#time.sleep(randint(2,5))
