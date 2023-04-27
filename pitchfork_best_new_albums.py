@@ -15,7 +15,6 @@ def getBestNewAlbums():
 	pageNum = 1
 
 	latestAlbum = pitchfork_get_latest_album_in_db.getLatestAlbumDocument()
-	print(latestAlbum)
 
 	for pageNum in range(5) :
 		data = requests.get(url + str(pageNum))
@@ -29,7 +28,9 @@ def getBestNewAlbums():
 			newAlbum = createAlbumDict()
 			
 			getAlbumDetails(newAlbum, review)
-			if(newAlbum["reviewDate"] > latestAlbum["reviewDate"]):
+			newAlbumDate = datetime.strptime(newAlbum["reviewDate"], "%B %d %Y")
+			latestAlbumDate = datetime.strptime(latestAlbum["reviewDate"], "%B %d %Y")
+			if(newAlbumDate > latestAlbumDate):
 				bestAlbums.append(newAlbum)
 		
 		#added pause to avoid ip blacklist
