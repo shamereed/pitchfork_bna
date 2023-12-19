@@ -1,155 +1,434 @@
 [
     {
+        "artistName": "André 3000",
+        "albumTitle": "New Blue Sun",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 20 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/andre-3000-new-blue-sun/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Hotline TNT",
+        "albumTitle": "Cartwheel",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 3 2023",
+        "genre": "Rock",
+        "reviewLink": "/reviews/albums/hotline-tnt-cartwheel/",
+        "reviewRating": "8.4"
+    },
+    {
+        "artistName": "Titanic",
+        "albumTitle": "Vidrio",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 2 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/titanic-vidrio/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Ragana",
+        "albumTitle": "Desolation's Flower",
+        "updateDate": "December 19 2023",
+        "reviewDate": "October 31 2023",
+        "genre": "Metal",
+        "reviewLink": "/reviews/albums/ragana-desolations-flower/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Sofia Kourtesis",
+        "albumTitle": "Madres",
+        "updateDate": "December 19 2023",
+        "reviewDate": "October 27 2023",
+        "genre": "Electronic",
+        "reviewLink": "/reviews/albums/sofia-kourtesis-madres/",
+        "reviewRating": "8.5"
+    },
+    {
+        "artistName": "L'Rain",
+        "albumTitle": "I Killed Your Dog",
+        "updateDate": "December 19 2023",
+        "reviewDate": "October 12 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/lrain-i-killed-your-dog/",
+        "reviewRating": "8.7"
+    },
+    {
+        "artistName": "Pangaea",
+        "albumTitle": "Changing Channels",
+        "updateDate": "December 19 2023",
+        "reviewDate": "October 6 2023",
+        "genre": "Electronic",
+        "reviewLink": "/reviews/albums/pangaea-changing-channels/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Sufjan Stevens",
+        "albumTitle": "Javelin",
+        "updateDate": "December 19 2023",
+        "reviewDate": "October 5 2023",
+        "genre": "Folk/Country",
+        "reviewLink": "/reviews/albums/sufjan-stevens-javelin/",
+        "reviewRating": "8.6"
+    },
+    {
+        "artistName": "yeule",
+        "albumTitle": "softscars",
+        "updateDate": "December 19 2023",
+        "reviewDate": "September 22 2023",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/yeule-softscars/",
+        "reviewRating": "8.5"
+    },
+    {
+        "artistName": "Tomb Mold",
+        "albumTitle": "The Enduring Spirit",
+        "updateDate": "December 19 2023",
+        "reviewDate": "September 19 2023",
+        "genre": "Metal",
+        "reviewLink": "/reviews/albums/tomb-mold-the-enduring-spirit/",
+        "reviewRating": "8.6"
+    },
+    {
+        "artistName": "jaimie branch",
+        "albumTitle": "Fly or Die Fly or Die Fly or Die ((world war))",
+        "updateDate": "December 19 2023",
+        "reviewDate": "August 28 2023",
+        "genre": "Jazz",
+        "reviewLink": "/reviews/albums/jaimie-branch-fly-or-die-fly-or-die-fly-or-die-world-war/",
+        "reviewRating": "8.5"
+    },
+    {
+        "artistName": "Noname",
+        "albumTitle": "Sundial",
+        "updateDate": "December 19 2023",
+        "reviewDate": "August 11 2023",
+        "genre": "Rap",
+        "reviewLink": "/reviews/albums/noname-sundial/",
+        "reviewRating": "8.8"
+    },
+    {
+        "artistName": "Julie Byrne",
+        "albumTitle": "The Greater Wings",
+        "updateDate": "December 19 2023",
+        "reviewDate": "July 11 2023",
+        "genre": "Folk/Country",
+        "reviewLink": "/reviews/albums/julie-byrne-the-greater-wings/",
+        "reviewRating": "8.5"
+    },
+    {
+        "artistName": "ANOHNI and the Johnsons",
+        "albumTitle": "My Back Was a Bridge for You to Cross",
+        "updateDate": "December 19 2023",
+        "reviewDate": "July 10 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/anohni-and-the-johnsons-my-back-was-a-bridge-for-you-to-cross/",
+        "reviewRating": "8.7"
+    },
+    {
+        "artistName": "Joanna Sternberg",
+        "albumTitle": "I've Got Me",
+        "updateDate": "December 19 2023",
+        "reviewDate": "June 30 2023",
+        "genre": "Folk/Country",
+        "reviewLink": "/reviews/albums/joanna-sternberg-ive-got-me/",
+        "reviewRating": "8.6"
+    },
+    {
+        "artistName": "Blue Lake",
+        "albumTitle": "Sun Arcs",
+        "updateDate": "December 19 2023",
+        "reviewDate": "June 29 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/blue-lake-sun-arcs/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Feeble Little Horse",
+        "albumTitle": "Girl With Fish",
+        "updateDate": "December 19 2023",
+        "reviewDate": "June 15 2023",
+        "genre": "Rock",
+        "reviewLink": "/reviews/albums/feeble-little-horse-girl-with-fish/",
+        "reviewRating": "8.2"
+    },
+    {
+        "artistName": "Youth Lagoon",
+        "albumTitle": "Heaven Is a Junkyard",
+        "updateDate": "December 19 2023",
+        "reviewDate": "June 13 2023",
+        "genre": "Rock",
+        "reviewLink": "/reviews/albums/youth-lagoon-heaven-is-a-junkyard/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Amaarae",
+        "albumTitle": "Fountain Baby",
+        "updateDate": "December 19 2023",
+        "reviewDate": "June 12 2023",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/amaarae-fountain-baby/",
+        "reviewRating": "8.7"
+    },
+    {
+        "artistName": "Water From Your Eyes",
+        "albumTitle": "Everyone's Crushed",
+        "updateDate": "December 19 2023",
+        "reviewDate": "May 30 2023",
+        "genre": "Rock",
+        "reviewLink": "/reviews/albums/water-from-your-eyes-everyones-crushed/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Mandy, Indiana",
+        "albumTitle": "i've seen a way",
+        "updateDate": "December 19 2023",
+        "reviewDate": "May 19 2023",
+        "genre": "Experimental",
+        "reviewLink": "/reviews/albums/mandy-indiana-ive-seen-a-way/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "billy woods, Kenny Segal",
+        "albumTitle": "Maps",
+        "updateDate": "December 19 2023",
+        "reviewDate": "May 5 2023",
+        "genre": "Rap",
+        "reviewLink": "/reviews/albums/billy-woods-kenny-segal-maps/",
+        "reviewRating": "8.9"
+    },
+    {
+        "artistName": "Nourished by Time",
+        "albumTitle": "Erotic Probiotic 2",
+        "updateDate": "December 19 2023",
+        "reviewDate": "May 4 2023",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/nourished-by-time-erotic-probiotic-2/",
+        "reviewRating": "8.2"
+    },
+    {
+        "artistName": "Jessie Ware",
+        "albumTitle": "That! Feels Good!",
+        "updateDate": "December 19 2023",
+        "reviewDate": "April 28 2023",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/jessie-ware-that-feels-good/",
+        "reviewRating": "8.3"
+    },
+    {
         "artistName": "Kara Jackson",
         "albumTitle": "Why Does the Earth Give Us People to Love?",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "April 17 2023",
         "genre": "Folk/Country",
         "reviewLink": "/reviews/albums/kara-jackson-why-does-the-earth-give-us-people-to-love/",
-        "reviewRating": ""
+        "reviewRating": "8.2"
     },
     {
         "artistName": "Yaeji",
         "albumTitle": "With a Hammer",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "April 10 2023",
         "genre": "Electronic",
         "reviewLink": "/reviews/albums/yaeji-with-a-hammer/",
-        "reviewRating": ""
+        "reviewRating": "8.5"
     },
     {
         "artistName": "Wednesday",
         "albumTitle": "Rat Saw God",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "April 7 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/wednesday-rat-saw-god/",
-        "reviewRating": ""
+        "reviewRating": "8.8"
     },
     {
         "artistName": "Boygenius",
         "albumTitle": "The Record",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 31 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/boygenius-the-record/",
-        "reviewRating": ""
+        "reviewRating": "8.2"
     },
     {
         "artistName": "Arooj Aftab, Vijay Iyer, Shahzad Ismaily",
         "albumTitle": "Love in Exile",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 28 2023",
         "genre": "Jazz",
         "reviewLink": "/reviews/albums/arooj-aftab-vijay-iyer-shahzad-ismaily-love-in-exile/",
-        "reviewRating": ""
+        "reviewRating": "8.5"
     },
     {
         "artistName": "Lana Del Rey",
-        "albumTitle": "Did You Know That There’s a Tunnel Under Ocean Blvd",
-        "updateDate": "April 27 2023",
+        "albumTitle": "Did You Know That There's a Tunnel Under Ocean Blvd",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 24 2023",
         "genre": "Pop/R&B",
         "reviewLink": "/reviews/albums/lana-del-rey-did-you-know-that-theres-a-tunnel-under-ocean-blvd/",
-        "reviewRating": ""
+        "reviewRating": "8.3"
     },
     {
         "artistName": "Yves Tumor",
         "albumTitle": "Praise a Lord Who Chews but Which Does Not Consume; (Or Simply, Hot Between Worlds)",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 17 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/yves-tumor-praise-a-lord-who-chews-but-which-does-not-consume-or-simply-hot-between-worlds/",
-        "reviewRating": ""
+        "reviewRating": "8.4"
     },
     {
         "artistName": "100 gecs",
         "albumTitle": "10,000 gecs",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 16 2023",
         "genre": "Experimental",
         "reviewLink": "/reviews/albums/100-gecs-10000-gecs/",
-        "reviewRating": ""
+        "reviewRating": "8.2"
     },
     {
         "artistName": "Lonnie Holley",
         "albumTitle": "Oh Me Oh My",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 15 2023",
         "genre": "Experimental",
         "reviewLink": "/reviews/albums/lonnie-holley-oh-me-oh-my/",
-        "reviewRating": ""
+        "reviewRating": "8.5"
     },
     {
         "artistName": "Fever Ray",
         "albumTitle": "Radical Romantics",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 10 2023",
         "genre": "Electronic",
         "reviewLink": "/reviews/albums/fever-ray-radical-romantics/",
-        "reviewRating": ""
+        "reviewRating": "8.4"
     },
     {
         "artistName": "Kali Uchis",
         "albumTitle": "Red Moon in Venus",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 3 2023",
         "genre": "Pop/R&B",
         "reviewLink": "/reviews/albums/kali-uchis-red-moon-in-venus/",
-        "reviewRating": ""
+        "reviewRating": "8.2"
     },
     {
         "artistName": "Model/Actriz",
         "albumTitle": "Dogsbody",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "March 2 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/model-actriz-dogsbody/",
-        "reviewRating": ""
+        "reviewRating": "8.2"
     },
     {
         "artistName": "Liv.e",
         "albumTitle": "Girl in the Half Pearl",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "February 15 2023",
         "genre": "Pop/R&B",
         "reviewLink": "/reviews/albums/live-girl-in-the-half-pearl/",
-        "reviewRating": ""
+        "reviewRating": "8.3"
     },
     {
         "artistName": "Caroline Polachek",
         "albumTitle": "Desire, I Want to Turn Into You",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "February 14 2023",
         "genre": "Pop/R&B",
         "reviewLink": "/reviews/albums/caroline-polachek-desire-i-want-to-turn-into-you/",
-        "reviewRating": ""
+        "reviewRating": "8.7"
     },
     {
         "artistName": "Kelela",
         "albumTitle": "Raven",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "February 13 2023",
         "genre": "Pop/R&B",
         "reviewLink": "/reviews/albums/kelela-raven/",
-        "reviewRating": ""
+        "reviewRating": "8.4"
     },
     {
         "artistName": "Yo La Tengo",
         "albumTitle": "This Stupid World",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "February 9 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/yo-la-tengo-this-stupid-world/",
-        "reviewRating": ""
+        "reviewRating": "8.5"
     },
     {
         "artistName": "Parannoul",
         "albumTitle": "After the Magic",
-        "updateDate": "April 27 2023",
+        "updateDate": "December 19 2023",
         "reviewDate": "February 2 2023",
         "genre": "Rock",
         "reviewLink": "/reviews/albums/parannoul-after-the-magic/",
-        "reviewRating": ""
+        "reviewRating": "8.4"
+    },
+    {
+        "artistName": "SZA",
+        "albumTitle": "SOS",
+        "updateDate": "December 19 2023",
+        "reviewDate": "December 9 2022",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/sza-sos/",
+        "reviewRating": "8.7"
+    },
+    {
+        "artistName": "$ilkMoney",
+        "albumTitle": "I Don't Give a Fuck About This Rap Shit, Imma Just Drop Until I Don't Feel Like It Anymore",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 23 2022",
+        "genre": "Rap",
+        "reviewLink": "/reviews/albums/silkmoney-i-dont-give-a-fuck-about-this-rap-shit-imma-just-drop-until-i-dont-feel-like-it-anymore/",
+        "reviewRating": "8.4"
+    },
+    {
+        "artistName": "Weyes Blood",
+        "albumTitle": "And in the Darkness, Hearts Aglow",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 18 2022",
+        "genre": "Rock",
+        "reviewLink": "/reviews/albums/weyes-blood-and-in-the-darkness-hearts-aglow/",
+        "reviewRating": "8.4"
+    },
+    {
+        "artistName": "Dream Unending",
+        "albumTitle": "Song of Salvation",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 15 2022",
+        "genre": "Metal",
+        "reviewLink": "/reviews/albums/dream-unending-song-of-salvation/",
+        "reviewRating": "8.5"
+    },
+    {
+        "artistName": "CEO Trayle",
+        "albumTitle": "HH5",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 14 2022",
+        "genre": "Rap",
+        "reviewLink": "/reviews/albums/ceo-trayle-hh5/",
+        "reviewRating": "8.3"
+    },
+    {
+        "artistName": "Jeff Parker",
+        "albumTitle": "Mondays at the Enfield Tennis Academy",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 12 2022",
+        "genre": "Jazz",
+        "reviewLink": "/reviews/albums/jeff-parker-mondays-at-the-enfield-tennis-academy/",
+        "reviewRating": "8.4"
+    },
+    {
+        "artistName": "Dawn Richard, Spencer Zahn",
+        "albumTitle": "Pigments",
+        "updateDate": "December 19 2023",
+        "reviewDate": "November 9 2022",
+        "genre": "Pop/R&B",
+        "reviewLink": "/reviews/albums/dawn-richard-spencer-zahn-pigments/",
+        "reviewRating": "8.3"
     }
 ]

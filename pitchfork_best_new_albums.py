@@ -1,7 +1,10 @@
-import requests, json, time, pitchfork_get_latest_album_in_db
-from bs4 import BeautifulSoup
 from datetime import datetime
-from random import randint
+
+import json
+import pitchfork_get_latest_album_in_db
+import requests
+import time
+from bs4 import BeautifulSoup
 
 url = 'https://pitchfork.com/reviews/best/albums/?page='
 outputFile = 'best_albums.json'
@@ -29,10 +32,13 @@ def getBestNewAlbums():
             newAlbum = createAlbumDict()
 
             getAlbumDetails(newAlbum, review)
-            newAlbumDate = datetime.strftime(newAlbum["reviewDate"], "%B %d %Y")
-            latestAlbumDate = datetime.strftime(latestAlbum["reviewDate"], "%B %d %Y")
-            if newAlbumDate > latestAlbumDate:
-                bestAlbums.append(newAlbum)
+            tempdate = newAlbum["reviewDate"]
+            print(tempdate)
+            #print(datetime.strftime(tempdate, "%y/%m/%d"))
+            #newAlbum["reviewDate"] = datetime.strptime(newAlbum["reviewDate"], "%B %d %Y")
+            #latestAlbumDate = datetime.strftime(latestAlbum["reviewDate"], "%B %d %Y")
+            #if newAlbumDate > latestAlbumDate:
+            bestAlbums.append(newAlbum)
 
     # added pause to avoid ip blacklist
     # time.sleep(randint(2,5))
@@ -67,7 +73,7 @@ def getAlbumDetails(newAlbum, review):
     newAlbum.update({"albumTitle": album.text.strip()})
 
     reviewDate = review.find('time', {'class': 'pub-date'})
-    newAlbum.update({"reviewDate": reviewDate['datetime']})
+    newAlbum.update({"reviewDate": reviewDate.text.strip()})
 
     genre = review.find('li', {'class': 'genre-list__item'})
     newAlbum.update({"genre": genre.text})
@@ -79,7 +85,7 @@ def getAlbumDetails(newAlbum, review):
 def writeToJsonFile(bestAlbums):
     json_object = json.dumps(bestAlbums, indent=4, ensure_ascii=False)
 
-    with open(outputFile, "w", encoding='utf8') as outfile:
+    with open(outputFile, "w", encoding='utf-8') as outfile:
         outfile.write(json_object)
 
 
