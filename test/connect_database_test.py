@@ -1,7 +1,8 @@
 import json
 from pymongo import MongoClient
+from pathlib import Path
 
-outputFile = 'best_albums.json'
+outputFile = Path(r'C:\git\python\pfbna\best_albums.json')
 CONNECTION_STRING = "mongodb://localhost:27017/"
 
 def get_database():
