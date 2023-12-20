@@ -17,8 +17,8 @@ def getBestNewAlbums():
     bestAlbums = []
     pageNum = 1
 
-    latestAlbum = pitchfork_get_latest_album_in_db.getLatestAlbumDocument()
-    latestAlbum["reviewDate"] = datetime.strptime(latestAlbum["reviewDate"], "%B %d %Y")
+    #latestAlbum = pitchfork_get_latest_album_in_db.getLatestAlbumDocument()
+    #latestAlbum["reviewDate"] = datetime.strptime(latestAlbum["reviewDate"], "%B %d %Y")
 
     for pageNum in range(5):
         data = requests.get(url + str(pageNum))
@@ -56,7 +56,7 @@ def createAlbumDict():
         "reviewDate": "",
         "genre": "",
         "reviewLink": "",
-        "reviewRating": ""
+        "reviewRating": 0.0
     }
 
 

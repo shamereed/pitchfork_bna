@@ -23,7 +23,7 @@ def getAlbumRating():
         print(reviewRating)
 
         if reviewRating:
-            album.update({"reviewRating": reviewRating.text})
+            album.update({"reviewRating": float(reviewRating.text)})
 
         # print(album)
         updatedAlbums.append(album)
